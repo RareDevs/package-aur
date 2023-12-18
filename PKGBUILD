@@ -12,7 +12,7 @@ depends=(
   qt5-svg
   python-qtawesome
   python-requests
-  python-typing_extensions
+  python-orjson
   legendary
 )
 makedepends=(
