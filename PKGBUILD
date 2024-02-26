@@ -12,7 +12,6 @@ depends=(
   qt5-svg
   python-qtawesome
   python-requests
-  python-typing_extensions
   python-orjson
   legendary
 )
@@ -41,3 +40,4 @@ package() {
   install -Dm644 "misc/${pkgname%-git}.desktop" "$pkgdir/usr/share/applications/${pkgname%-git}.desktop"
   install -Dm644 "rare/resources/images/Rare.png" "$pkgdir/usr/share/pixmaps/${pkgname%-git}.png"
 }
+
